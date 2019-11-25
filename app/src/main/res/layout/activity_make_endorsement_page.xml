@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeEndorsementPage"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fdfdfd"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:hint="Type your endorsement here"
+        android:textCursorDrawable="@null"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#a1a1a1"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+    />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="POST ENDORSEMENT"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="right"
+        android:fontFamily="sans-serif"
+        />
+
+</LinearLayout>

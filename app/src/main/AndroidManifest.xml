@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simdave.campteck">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hart"
+        android:label="Support Hart"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Support Hart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutPage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EndorsementPage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SocialMedia"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Email"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivitiesPage"
+            android:parentActivityName=".AboutPage" />
+        <activity
+            android:name=".MakeEndorsementPage"
+            android:parentActivityName=".EndorsementPage"></activity>
+        <activity android:name=".ActivityOnePage"
+            android:parentActivityName=".ActivitiesPage"></activity>
+    </application>
+
+</manifest>

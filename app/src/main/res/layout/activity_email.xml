@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Email"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send me message:"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif"
+        />
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtTo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="To" />-->
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:textColor="@color/colorPrimary"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="sans-serif"
+        />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Message"
+        android:textColor="@color/colorPrimary"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="sans-serif"
+        />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        />
+
+</LinearLayout>
